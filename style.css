@@ -121,7 +121,7 @@ footer
     }
     footer
     {
-        width: 480px;
+        width: 100%;
         height: 50px;
     }
     .grid-fot
@@ -277,27 +277,11 @@ footer
         width: 80%; 
     }
 }   
+                /*---------INDEX FIN--------*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------INDEX FIN--------*/
-
-/*---------PALMARES---------*/
+                /*---------PALMARES---------*/
 
 .palmares-tittle
 {
@@ -333,19 +317,19 @@ footer
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.palmares article h3
+.palmares div h3
 {
     background-color: none;
     font-size: 20px;
 }
-.palmares article img
+.palmares div img
 {
     width: 40px;
     height: 40px;
     padding-top: 15;
     padding-bottom: 15px;
 }
-.palmares article
+.palmares div
 {
     display: flex;
     flex-direction: column;
@@ -485,6 +469,96 @@ footer
 {
     font-size: 10px;
 }
+@media only screen and (max-width: 576px)
+{
+    .barca 
+    {
+        font-size: 16px;
+        height: 14px;
+    }
+    .arg-grid img
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .psg img
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .cont-sup img
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .palmares div img
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .in-miami img
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .prem-in img
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .palmares div h3
+    {
+        font-size: 12px;
+    }
+    .cont-sup h3
+    {
+        font-size: 12px;
+        margin-left: 25px;
+    }
+    .psg h3
+    {
+        font-size: 12px;
+    }
+    .in-miami h3
+    {
+        font-size: 12px;
+    }
+    .arg-grid h3
+    {
+        font-size: 12px;
+    }
+    .prem-in h3
+    {
+        font-size: 12px;
+    }
+    .palmares div p
+    {
+        font-size: 7px;
+    }
+    .cont-sup p
+    {
+        font-size: 7px;
+    }
+    .prem-in p
+    {
+        font-size: 7px;
+    }
+    .psg p
+    {
+        font-size: 7px;
+    }
+    .arg-grid p
+    {
+        font-size: 7px;
+    }
+    .prem-in p
+    {
+        font-size: 7px;
+    }
+}
+
+
+
 
 /*---------FIN PLAMARES---------*/
 
