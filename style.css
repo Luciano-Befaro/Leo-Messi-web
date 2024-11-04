@@ -955,7 +955,7 @@ footer
 .stat-line
 {
     color: white;
-    background-color: rgba(165, 42, 42, 0.61);
+    background-color: rgb(133, 43, 43);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 90%;
     border-radius: 3%;
@@ -1011,18 +1011,31 @@ span
 
 @media only screen and (max-width: 768px)
 {
+    .stat-line3
+    {
+        height: 150px;
+    }
     .stat-line h3
     {
         font-size: 14px;
+        text-align: center;
     }
     .stat-line p
     {
         font-size: 10px;
+        margin-left: 25px;
     }
     .stat-line span
     {
         font-size: 19px;
     }
+    .stat-line4 p
+    {
+        margin-left: 50px;
+    }
+    .stat-line5 p
+    {
+        margin-left: 85px;
 }
 @media only screen and (max-width: 576px)
 {
@@ -1035,16 +1048,7 @@ span
         text-align: center;
         margin-left: -35px;
     }
-
-
-
-
-
 }
-
-
-
-
 
 
 /*-------NAV BAR BOOTSTRAP-------*/
