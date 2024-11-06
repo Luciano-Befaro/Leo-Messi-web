@@ -938,7 +938,11 @@ footer
 /*---------FIN FOTOS VIDEOS---------*/
 
 /*------ESTADISTICAS-------*/
-
+.main-stat
+{
+    background-image: url(https://i.pinimg.com/564x/10/90/72/1090724280989e4ffc3ad124e3232662.jpg);
+    background: cover;
+}
 .tit-stat 
 {
     font-size: 40px;
@@ -952,102 +956,36 @@ footer
     font-size: 40px; 
     font-weight: bold;
 }
-.stat-line
+.stat-total
+{
+    background-color: rgba(0, 0, 0, 0.486);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 2%;
+    color: white;
+}
+.stat-total-as
+{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 4%;
+    color: white;
+}
+.stat-barca
+{
+    background-color: rgba(0, 0, 0, 0.486);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 4%;
+    color: white;
+}
+.t-barca
+{
+    margin-top: 100px;
+    color: white;
+}
+.t-totales
 {
     color: white;
-    background-color: rgb(133, 43, 43);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 90%;
-    border-radius: 3%;
-    height: 100px;
-}
-.stat-line h3
-{
-    margin: 0 auto;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-.stat-line p
-{
-    color: gold;
-    font-size: 20px;
-    margin-top: 5px;
-    text-align: start;
-    margin-left: 5px;
-    padding-left: 55px;
-}
-.p-stat p
-{
-    margin-left: -15px;
-}
-.stat-line1
-{
-    width: 80%;
-    margin-top: 10px;
-}
-.stat-line2
-{
-    width: 50%;
-}
-span
-{
-    color: gold;
-    font-size: 40px;
-}
-.totales
-{
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 2px;
-    margin-top: 10px;
-}
-.totales1
-{
-    margin-top: 40px;
-}
-
-/*------Media-query-stats-------*/
-
-@media only screen and (max-width: 768px)
-{
-    .stat-line3
-    {
-        height: 150px;
-    }
-    .stat-line h3
-    {
-        font-size: 14px;
-        text-align: center;
-    }
-    .stat-line p
-    {
-        font-size: 10px;
-        margin-left: 25px;
-    }
-    .stat-line span
-    {
-        font-size: 19px;
-    }
-    .stat-line4 p
-    {
-        margin-left: 50px;
-    }
-    .stat-line5 p
-    {
-        margin-left: 85px;
-}
-@media only screen and (max-width: 576px)
-{
-    .stat-line 
-    {
-        text-align: center;
-    }
-    .stat-line p
-    {
-        text-align: center;
-        margin-left: -35px;
-    }
 }
 
 
@@ -1073,4 +1011,8 @@ span
 {
     padding-bottom: 20px;
     line-height: 22px;
+}
+.menuflex1 li
+{
+    height: 64px;
 }
