@@ -148,7 +148,7 @@ footer
 
 /*-----------FIN HTML COMPARTIDO-----------*/
 
-    /*------------- INDEX --------------*/
+/*------------- INDEX --------------*/
 
 .tit
 {
@@ -236,6 +236,7 @@ footer
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 15px;
 }
+
 /*------- Media-Query-indx --------*/
 
 @media only screen and (max-width: 768px)
@@ -277,9 +278,8 @@ footer
         width: 80%; 
     }
 }   
+
                 /*---------INDEX FIN--------*/
-
-
 
                 /*---------PALMARES---------*/
 
@@ -557,13 +557,9 @@ footer
     }
 }
 
-
-
-
 /*---------FIN PLAMARES---------*/
 
 /*---------BIOGRAFIA---------*/
-
 
 .tit-biografia
 {
@@ -651,7 +647,6 @@ footer
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-
 .barcelona-bio
 {
     width: 100%;
@@ -834,10 +829,7 @@ footer
     }
 }   
 
-
 /*---------FIN BIOGRAFIA---------*/
-
-
 
 /*--------FOTOS Y VIDEOS---------*/
 
@@ -938,6 +930,7 @@ footer
 /*---------FIN FOTOS VIDEOS---------*/
 
 /*------ESTADISTICAS-------*/
+
 .main-stat
 {
     background-image: url(https://i.pinimg.com/564x/10/90/72/1090724280989e4ffc3ad124e3232662.jpg);
@@ -987,7 +980,6 @@ footer
 {
     color: white;
 }
-
 
 /*-------NAV BAR BOOTSTRAP-------*/
 
