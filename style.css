@@ -1,35 +1,22 @@
 /*----NAVBAR----*/
 body {
-  background-color: rgb(21, 10, 66);
+  background-color: rgb(34, 33, 33);
   background-size: cover;
 }
 
 .navbar {
   display: flex;
   padding: 0px;
-  height: 10%;
 }
 .navbar .menuflex {
   width: 100%;
-  font-size: 25px;
+  font-size: 45px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.navbar .menuflex ul {
-  padding-left: 0;
-  box-sizing: content-box;
-}
-.navbar .menuflex li {
-  display: inline-block;
 }
 .navbar .menuflex a {
   text-decoration: none;
   padding: 15px;
-  height: 63px;
-  display: flex;
 }
 
 .menuflex {
@@ -96,11 +83,6 @@ footer .grid-fot .mid-fot img {
   width: 100px;
   height: 80px;
   padding-top: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /*----INDEX----*/
@@ -697,7 +679,7 @@ footer .grid-fot .mid-fot img {
 
 .t-barca {
   margin-top: 100px;
-  color: white;
+  color: gold;
   font-family: "Courier New";
   margin-left: 20px;
 }
@@ -738,13 +720,12 @@ footer .grid-fot .mid-fot img {
 }
 
 .navfotos {
-  margin-left: 23px;
+  margin-left: 17px;
   margin-top: 20px;
 }
 .navfotos li {
   display: inline-block;
-  padding: 10px;
-  background-color: rgba(165, 42, 42, 0.3);
+  padding: 5px;
   border-radius: 20%;
 }
 .navfotos a {
@@ -752,6 +733,69 @@ footer .grid-fot .mid-fot img {
   font-family: "Trebuchet MS";
   text-decoration: none;
   font-weight: bold;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.navfotos a:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.navfotos a:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+.navfotos a::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+.navfotos a:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
 }
 
 .fotosyvideos {
@@ -784,7 +828,7 @@ footer .grid-fot .mid-fot img {
 }
 /*----parte videos----*/
 .navfotos1 {
-  margin-left: 7px;
+  margin-left: 0;
   margin-top: 20px;
 }
 

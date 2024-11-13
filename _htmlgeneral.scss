@@ -3,38 +3,24 @@
 /*----NAVBAR----*/
 body
 {
-    background-color: rgb(21, 10, 66);
+    background-color: rgb(34, 33, 33);
     background-size: cover;
 }
+
 .navbar
 {
     display: flex;
     padding: 0px;
-    height: 10%;
     .menuflex
     {
         width: 100%;
-        font-size: 25px;
+        font-size: 45px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: bold;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        ul
-        {
-            padding-left: 0;
-            box-sizing: content-box; 
-        }
-        li
-        {
-            display: inline-block;
-        }
+        font-weight: bold;    
         a
         {
             text-decoration: none;
-            padding: 15px;
-            height: 63px;
-            display: flex;
+            padding: 15px;   
         }
     }
 }
