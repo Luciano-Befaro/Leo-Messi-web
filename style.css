@@ -7,29 +7,23 @@ body {
 .navbar {
   display: flex;
   padding: 0px;
+  height: 46px;
 }
-.navbar .menuflex {
-  width: 100%;
-  font-size: 45px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-weight: bold;
-}
-.navbar .menuflex a {
+.navbar a {
   text-decoration: none;
   padding: 15px;
 }
-
-.menuflex {
+.navbar .menuflex {
   width: 100%;
   font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
 }
-.menuflex ul {
+.navbar .menuflex ul {
   list-style: none;
 }
-.menuflex li {
+.navbar .menuflex li {
   display: inline-block;
 }
 
@@ -85,6 +79,59 @@ footer .grid-fot .mid-fot img {
   padding-top: 10px;
 }
 
+/*----MediaQuerys-htmlgenereal----*/
+@media only screen and (max-width: 480px) {
+  .navbar {
+    height: 100px;
+  }
+  .tit h1 {
+    font-size: 30px;
+  }
+  .menuflex a {
+    font-size: 15px;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 200px;
+    height: 50px;
+    width: auto;
+  }
+  footer .grid-fot {
+    display: grid;
+    grid-template-areas: "izq-fot mid-fot der-fot";
+    grid-template-columns: 0.4fr 2fr 0.4fr;
+  }
+  footer .grid-fot .izq-fot {
+    grid-area: izq-fot;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid rgb(255, 255, 255) 2px;
+  }
+  footer .grid-fot .izq-fot img {
+    width: 25px;
+    height: 25px;
+  }
+  footer .grid-fot .der-fot {
+    grid-area: der-fot;
+    border-left: solid rgb(255, 255, 255) 2px;
+    width: auto;
+  }
+  footer .grid-fot .der-fot img {
+    width: 25px;
+    height: 25px;
+  }
+  footer .grid-fot .mid-fot {
+    grid-area: mid-fot;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer .grid-fot .mid-fot img {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+  }
+}
 /*----INDEX----*/
 .tit {
   display: flex;
@@ -396,7 +443,7 @@ footer .grid-fot .mid-fot img {
   }
   .barcelona-bio .bar-text-bio {
     position: absolute;
-    bottom: -100%;
+    bottom: -120%;
     width: 350px;
     height: 350px;
     right: 10%;
@@ -421,7 +468,7 @@ footer .grid-fot .mid-fot img {
     position: absolute;
     width: 100%;
     height: 250px;
-    bottom: -150%;
+    bottom: -160%;
   }
   .debut-bio .deb-text-bio {
     width: 350px;
@@ -720,7 +767,7 @@ footer .grid-fot .mid-fot img {
 }
 
 .navfotos {
-  margin-left: 17px;
+  margin-left: 22px;
   margin-top: 20px;
 }
 .navfotos li {
@@ -813,7 +860,7 @@ footer .grid-fot .mid-fot img {
   transform: scale(1.1);
 }
 
-/*----MediaQuerys-Fotosyvideos*/
+/*----MediaQuerys-Fotosyvideos----*/
 @media only screen and (max-width: 480px) {
   .titfotos {
     font-size: 30px;
@@ -901,6 +948,39 @@ footer .grid-fot .mid-fot img {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/*----MediaQuerys-htmlgenereal----*/
+/*----MediaQuerys-videos----*/
+@media only screen and (max-width: 480px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .video iframe {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .video1 iframe {
+    width: 80%;
+    margin-right: 12%;
+  }
+  .comentario-mundial {
+    width: 70%;
+  }
+  .comentario-mundial .texto-m p {
+    font-size: 12px;
+  }
+  .coment-barca {
+    position: relative;
+    left: -5%;
+    width: 90%;
+    margin-right: 25%;
+  }
+  .coment-barca h3 {
+    font-size: 15px;
+  }
+  .coment-barca p {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
