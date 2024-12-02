@@ -5,8 +5,13 @@ body
 {
     background-color: rgb(34, 33, 33);
     background-size: cover;
+    width: 100%;
 }
-
+img 
+{
+    max-width: 100%;
+    height: auto;
+}
 .navbar
 {
     display: flex;
@@ -81,7 +86,7 @@ footer
             border-left: solid rgb(255, 255, 255) 2px;
             img
             {
-                width: 50px;
+                width: 110px;
                 height: 50px;
             }       
         }
@@ -97,6 +102,14 @@ footer
                 padding-top: 10px;
             }
         }
+    }
+}
+.containerfot 
+{
+    div img
+    {
+    width: 50px;
+    height: 50px;
     }
 }
 
@@ -137,8 +150,8 @@ footer
             border-right:solid rgb(255, 255, 255) 2px;
             img
             {
-                width: 25px;
-                height: 25px; 
+                width: 20px;
+                height: 20px; 
             }
         }
         .der-fot
@@ -148,8 +161,8 @@ footer
             width: auto;
             img
             {
-                width: 25px;
-                height: 25px;
+                width: 10px;
+                height: 10px;
             }       
         }
         .mid-fot
